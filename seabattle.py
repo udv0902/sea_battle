@@ -226,11 +226,11 @@ class Game:
 			if rep:
 				count -= 1
 			if not self.comp_board.ships:
-				print('Вы выирали')
+				print('Вы выиграли')
 				Board.print(self.comp_board, self.user_board)
 				break
 			if not self.user_board.ships:
-				print('Победил компьтер')
+				print('Победил компьютер')
 				Board.print(self.comp_board, self.user_board)
 				break
 			count += 1
